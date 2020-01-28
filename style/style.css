@@ -1,0 +1,1465 @@
+@import url(fonts/fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.png);
+    background-size: 100% 847px;
+    position: relative;
+    z-index: 90;
+}
+
+.container {
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.top {
+    width: 960px;
+    height: 278px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    padding-top: 75px;
+}
+
+.PINGBULL {
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.703;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ER {
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    line-height: 0.703;
+    text-align: left;
+    background: linear-gradient(to top, #322539, #745083);
+}
+
+h1 {
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.703;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: #edbfff;
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+nav {
+    display: block;
+}
+
+.navbar {
+    width: 650px;
+    height: 25px;
+    padding-top: 75px;
+}
+
+.Link {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    float: left;
+    margin-left: 43px;
+}
+
+.Link:hover {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    text-decoration-color: #edbfff;
+    float: left;
+    margin-left: 43px;
+}
+
+.Link_home {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    float: left;
+    margin-left: 43px;
+}
+
+.Link_home:hover {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    text-decoration-color: #edbfff;
+    float: left;
+    margin-left: 43px;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.2;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 278px;
+    left: 0;
+}
+
+.midle {
+    width: 960px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lorem_box {
+    width: 505px;
+    height: 235px;
+    position: relative;
+    z-index: 100;
+}
+
+.iphone_box {
+    width: 268px;
+    height: 345px;
+    display: inline-table;
+    position: relative;
+    z-index: 100;
+    padding-left: 115px;
+}
+
+.iphone_box2 {
+    width: 130px;
+    height: 277px;
+    display: inline-table;
+    position: absolute;
+    padding-left: 616px;
+    z-index: 95;
+}
+
+.play_icon {
+    padding-left: 751px;
+    position: absolute;
+    z-index: 101;
+    padding-bottom: 52px;
+}
+
+.bottom {
+    width: 960px;
+    height: 167px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button {
+    width: 86px;
+    height: 17px;
+    margin-right: 167px;
+    background-image: url(img/source_of_icons_edited.png);
+    background-position: -56px -1px;
+}
+
+.violet_center {
+    width: 960px;
+    height: 342px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.violet_overlay {
+    width: 100%;
+    height: 342px;
+    background-image: url(img/violet_overlay.png);
+    margin: 0 auto;
+    position: absolute;
+    top: 845px;
+    left: 0;
+    z-index: 90;
+}
+
+.article1 {
+    width: 230px;
+    margin-left: 60px;
+}
+
+.article2 {
+    width: 230px;
+}
+
+.article3 {
+    width: 230px;
+}
+
+.coment_icons1 {
+    position: absolute;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-image: url(img/source_of_icons_edited.png);
+    background-position: 548px -11px;
+    padding-bottom: 195px;
+}
+
+.coment_icons2 {
+    position: absolute;
+    margin-left: 348px;
+    width: 30px;
+    height: 30px;
+    background-image: url(img/source_of_icons_edited.png);
+    background-position: 590px -3px;
+    padding-bottom: 215px;
+}
+
+.coment_icons3 {
+    position: absolute;
+    margin-left: 686px;
+    width: 30px;
+    height: 30px;
+    background-image: url(img/source_of_icons_edited.png);
+    background-position: 633px -3px;
+    padding-bottom: 215px;
+}
+
+.Ping {
+    color: black;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.read_more {
+    font-size: 21px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    left: 220px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read_more:hover {
+    font-size: 21px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+    left: 220px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.P_lorem_box1 {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+
+.Res_P {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    padding-bottom: 25px;
+}
+
+.Layer_2_copy {
+    background-image: url("Layer 2 copy.png");
+    position: absolute;
+    left: 0px;
+    top: 846px;
+    width: 100%;
+    height: 1460px;
+}
+
+.comments {
+    width: 960px;
+    height: 608px;
+    position: relative;
+    z-index: 100;
+}
+
+.com_block1 {
+    width: 960px;
+    height: 487px;
+    display: flex;
+}
+
+.comment_left {
+    width: 480px;
+    height: 484px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 62px;
+    padding-right: 50px;
+}
+
+.comment_right {
+    width: 480px;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Res_upd {
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    padding-bottom: 30px;
+}
+
+.Res_upd_block {
+    padding-left: 50px;
+    padding-bottom: 21px;
+}
+
+.strite1 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -200px;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -216px -319px;
+    z-index: 100;
+}
+
+.strite2 {
+    position: absolute;
+    margin-left: -200px;
+    width: 50px;
+    height: 50px;
+    margin-top: -8px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -145px -378px;
+    z-index: 100;
+}
+
+.strite3 {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -200px;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -74px -437px;
+    z-index: 100;
+}
+
+.read_more_here {
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.read_more_here:hover {
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+    left: 220px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button2 {
+    width: 86px;
+    height: 17px;
+    margin-top: 163px;
+    background-image: url(img/source_of_icons_edited.png);
+    background-position: -56px -22px;
+    position: absolute;
+    z-index: 100;
+}
+
+.img_comment {
+    position: absolute;
+    z-index: 95;
+}
+
+.ping_starts {
+    display: flex;
+    text-transform: uppercase;
+}
+
+.dodik {
+    position: absolute;
+    margin-top: 118px;
+    z-index: 100;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/source_of_icons.png);
+    background-position: -4px -500px;
+}
+
+.comment3_1 {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    position: relative;
+    z-index: 100;
+}
+
+.comment_bottom {
+    width: 960px;
+    height: 121px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CM_logo {
+    width: 775px;
+    height: 65px;
+    background-image: url(img/logos.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.comments_overlay {
+    width: 100%;
+    height: 608px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    position: absolute;
+    top: 1187px;
+    left: 0;
+    z-index: 90;
+}
+
+.last_block {
+    width: 960px;
+    height: 397px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.last_block_overlay {
+    width: 100%;
+    height: 397px;
+    background-color: #ececec;
+    position: absolute;
+    left: 0;
+    top: 1795px;
+    z-index: 90;
+}
+
+.HR_overlay {
+    width: 100%;
+    position: absolute;
+}
+
+.article2_1 {
+    width: 285px;
+    height: 210px;
+}
+
+.ping22 {
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.703;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+
+.article2_2 {
+    width: 285px;
+    height: 210px;
+}
+
+.article2_3 {
+    width: 285px;
+    height: 210px;
+}
+
+.Copyright {
+    font-size: 16px;
+    font-family: "Georgia";
+    color: rgb(197, 197, 197);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar2 {
+    position: relative;
+    z-index: 100;
+}
+
+footer {
+    height: 114px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_back {
+    width: 100%;
+    height: 114px;
+    position: absolute;
+    left: 0;
+    background-image: url(img/bg_bottom.png);
+    background-size: 100% 114px;
+    z-index: 93;
+}
+
+.Link2 {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    float: left;
+    margin-right: 43px;
+}
+
+.Link2:hover {
+    display: block;
+    font-size: 25px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    text-decoration: underline;
+    text-decoration-color: #edbfff;
+    float: left;
+    margin-right: 43px;
+}
+
+.coopiright1 {
+    width: 140px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    z-index: 100;
+}
+
+.DesignedBy {
+    font-size: 12px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 2.81;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.PingbullAS11 {
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 2.6;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-weight: bolder;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1200px) {
+    body {
+        background-size: 100% 800px;
+    }
+    .container {
+        width: 768px;
+    }
+    .header {
+        height: 800px;
+    }
+    .top {
+        width: 768px;
+        display: block;
+    }
+    .Link {
+        margin-right: 43px;
+        margin-left: 0px;
+    }
+    .Link_home {
+        margin-right: 43px;
+        margin-left: 0px;
+    }
+    .Link:hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+        margin-left: 0px;
+        margin-right: 43px;
+    }
+    .Link_home:hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+        margin-left: 0px;
+        margin-right: 43px;
+    }
+    .iphone_box {
+        padding-left: 162px;
+    }
+    .CM_logo {
+        width: 728px;
+    }
+    /* //////////////////////////////////////////////////////////////////////////////////////// */
+    .midle {
+        width: 768px;
+    }
+    .lorem_box {
+        width: 270px;
+        height: 169px;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 40px;
+        padding-top: 8px;
+    }
+    h3 {
+        font-size: 24px;
+        height: 21px;
+        overflow: hidden;
+        padding-top: 3px;
+    }
+    p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .P_lorem_box1 {
+        font-size: 14px;
+        text-align: justify;
+    }
+    .play_icon {
+        padding-left: 560px;
+    }
+    .iphone_box2 {
+        padding-left: 423px;
+    }
+    /* ///////////////////////////////////////////////////////////////////////////////////////////// */
+    .bottom {
+        width: 768px;
+        padding-bottom: 76px;
+    }
+    h2 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+    .article1 {
+        width: 160px;
+        margin-left: 60px;
+    }
+    .article2 {
+        width: 160px;
+        margin-left: 60px;
+    }
+    .article3 {
+        width: 160px;
+        margin-left: 60px;
+    }
+    .coment_icons1 {
+        background-position: 548px -10px;
+    }
+    .coment_icons2 {
+        margin-left: 298px;
+        background-position: 590px -10px;
+    }
+    .coment_icons3 {
+        margin-left: 563px;
+        background-position: 633px -11px;
+    }
+    .violet_center {
+        width: 768px;
+    }
+    .violet_overlay {
+        top: 800px;
+    }
+    .comments {
+        width: 768px;
+    }
+    .comments_overlay {
+        top: 1143px;
+    }
+    .com_block1 {
+        width: 768px;
+    }
+    .comment_left {
+        width: 384px;
+    }
+    .comment_right {
+        width: 384px;
+    }
+    .img_comment {
+        width: 313px;
+        height: 272px;
+        overflow: hidden;
+    }
+    .Ping {
+        color: black;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    .ping_starts {
+        display: block;
+        padding-top: 30px;
+    }
+    .Res_upd {
+        padding-bottom: 36px;
+    }
+    .Res_P {
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(69, 69, 69);
+        line-height: 1.5;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+        padding-bottom: 0px;
+        height: 20px;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+    .Res_upd_block {
+        height: 173px;
+        width: 260px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    .strite1 {
+        margin-top: -48px;
+        margin-left: -114px;
+    }
+    .strite2 {
+        margin-left: -114px;
+        margin-top: 18px;
+    }
+    .strite3 {
+        margin-top: 84px;
+        margin-left: -114px;
+    }
+    .article2_1 {
+        width: 204px;
+        height: 206px;
+        overflow: hidden;
+    }
+    .article2_2 {
+        width: 204px;
+        height: 206px;
+        overflow: hidden;
+    }
+    .article2_3 {
+        width: 204px;
+        height: 206px;
+        overflow: hidden;
+    }
+    .Copyright {
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    .ping22 {
+        font-size: 24px;
+    }
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .comment_bottom {
+        width: 768px;
+    }
+    .Link2 {
+        font-size: 20px;
+    }
+    .Link2:hover {
+        font-size: 20px;
+    }
+    .last_block {
+        width: 768px;
+    }
+    .last_block_overlay {
+        top: 1751px;
+    }
+    .coopiright1 {
+        padding-top: 44px;
+    }
+    .footer {
+        height: 201px;
+    }
+    .foot_back {
+        height: 201px;
+        background-size: auto 100%;
+    }
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 968px) {
+    body {
+        background-size: 100% 548px;
+    }
+    .container {
+        width: 480px;
+    }
+    .header {
+        width: 480px;
+        height: 548px;
+    }
+    .navbar {
+        width: 252px;
+        height: 251px;
+        margin: 60px auto;
+        position: absolute;
+        visibility: hidden;
+        padding-top: 0px;
+        margin-left: 115px;
+        z-index: 101;
+    }
+    .navbar:hover {
+        visibility: visible;
+        background-image: url(img/Shape\ 8.png);
+        background-size: 100% 100%;
+    }
+    .logo {
+        width: 480px;
+        justify-content: center;
+    }
+    .play_icon {
+        display: none;
+    }
+    .iphone_box {
+        display: none;
+    }
+    .iphone_box2 {
+        display: none;
+    }
+    .iphone_small {
+        background-image: url(img/Iphone_small.png);
+        width: 187px;
+        height: 263px;
+        position: relative;
+        z-index: 100
+    }
+    .CM_logo {
+        background-image: url(img/logos_2.png);
+        width: 345px;
+        height: 154px;
+        margin-top: 121px;
+    }
+    .top {
+        width: 480px;
+        height: 203px;
+    }
+    .overlay {
+        top: 203px;
+        height: 246px;
+    }
+    h3 {
+        font-size: 21px;
+        height: 19px;
+        overflow: hidden;
+        padding-top: 3px;
+        width: 238px;
+    }
+    .midle {
+        width: 480px;
+        height: 246px;
+    }
+    .lorem_box {
+        height: 82px;
+    }
+    .violet_center {
+        width: 480px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .violet_overlay {
+        height: 600px;
+        background-size: 100% 100%;
+        top: 548px;
+    }
+    .article1 {
+        width: 380px;
+        padding-bottom: 30px;
+    }
+    .article2 {
+        width: 380px;
+        padding-bottom: 30px;
+    }
+    .article3 {
+        width: 380px;
+    }
+    .coment_icons1 {
+        margin-left: -189px;
+        padding-bottom: 392px;
+    }
+    .coment_icons2 {
+        margin-left: -189px;
+        padding-bottom: 107px;
+    }
+    .coment_icons3 {
+        margin-left: -189px;
+        margin-top: 192px;
+    }
+    .P_lorem_box1 {
+        visibility: hidden;
+    }
+    .bottom {
+        width: 480px;
+        padding-bottom: 69px;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        margin-right: 0px;
+    }
+    .main {
+        width: 480px;
+    }
+    .comments {
+        width: 480px;
+        height: 1020px;
+    }
+    .com_block1 {
+        width: 480px;
+        height: 786px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img_comment {
+        width: 417px;
+        height: 272px;
+        overflow: hidden;
+    }
+    .ping_starts {
+        display: flex;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 21px;
+    }
+    .starts {
+        height: 24px;
+        overflow: hidden;
+        padding-top: 0px;
+        font-size: 30px;
+    }
+    .Ping {
+        color: black;
+        margin-bottom: 0px;
+        height: 26px;
+        font-size: 30px;
+        padding-top: 0px;
+        width: 106px;
+    }
+    .dodik {
+        margin-top: 99px;
+        margin-left: -201px;
+    }
+    .comments_overlay {
+        top: 1149px;
+        height: 1020px;
+    }
+    .comment_left {
+        width: 440px;
+        height: 432px;
+    }
+    .comment_right {
+        width: 440px;
+        height: 223px;
+    }
+    .comment_bottom {
+        width: 480px;
+    }
+    .last_block {
+        width: 480px;
+        height: 668px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .last_block_overlay {
+        top: 2167px;
+        height: 668px;
+    }
+    .article2_1 {
+        width: 440px;
+        height: 127px;
+        overflow: hidden;
+    }
+    .article2_2 {
+        width: 440px;
+        height: 127px;
+        overflow: hidden;
+    }
+    .article2_3 {
+        width: 440px;
+        height: 127px;
+        overflow: hidden;
+    }
+    .footer {
+        width: 480px;
+    }
+    .Link {
+        margin-right: 0;
+        margin-left: 0px;
+        display: block;
+        width: 251px;
+        text-align: center;
+        height: 40px;
+        border-top: 1px solid #513e59;
+    }
+    .Link:hover {
+        margin-right: 0;
+        margin-left: 3px;
+        display: block;
+        width: 246px;
+        text-align: center;
+        height: 40px;
+        text-decoration: none;
+        background-image: url(img/Layer\ 47.png);
+        border-bottom: 2px solid #edbfff;
+    }
+    .Link_home {
+        margin-right: 0;
+        margin-left: 0px;
+        display: block;
+        width: 251px;
+        text-align: center;
+        height: 40px;
+        visibility: visible;
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+    }
+    .Link_home:hover {
+        margin-right: 0px;
+        margin-left: 3px;
+        display: block;
+        width: 246px;
+        text-align: center;
+        height: 40px;
+        border-bottom: 2px solid #edbfff;
+        background-image: url(img/Layer\ 47.png);
+    }
+    .Link2 {
+        margin-right: 21px;
+    }
+    .Link2:hover {
+        margin-right: 21px;
+    }
+    .footer {
+        width: 480px;
+        height: 199px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Copyright {
+        padding-top: 12px;
+        padding-bottom: 9px;
+    }
+    .coopiright1 {
+        padding-top: 26px;
+    }
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: auto;
+    }
+    .container {
+        width: 320px;
+    }
+    .header {
+        width: 320px;
+        height: 516px;
+    }
+    .top {
+        width: 320px;
+    }
+    .logo {
+        width: 320px;
+    }
+    .PINGBULL {
+        font-size: 36px;
+    }
+    .ER {
+        font-size: 36px;
+    }
+    .navbar {
+        margin-left: 35px;
+        height: 196px;
+    }
+    .Link_home {
+        font-size: 22px;
+        height: 32px;
+    }
+    .Link {
+        font-size: 22px;
+        height: 32px;
+    }
+    .Link_home:hover {
+        font-size: 22px;
+        height: 32px;
+    }
+    .Link:hover {
+        font-size: 22px;
+        height: 32px;
+    }
+    .overlay {
+        visibility: hidden;
+    }
+    .lorem_box {
+        width: 207px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    /* /////////////////////////////////// */
+    .midle {
+        width: 320px;
+        justify-content: center;
+    }
+    .lorem_box {
+        width: 210;
+    }
+    .CM_logo {
+        background-image: url(img/logos3.png);
+        width: 237px;
+        height: 294px;
+        margin-top: 0px;
+    }
+    .comments_overlay {
+        top: 1117px;
+        height: 1210px;
+    }
+    .comment_bottom {
+        width: 480px;
+        height: 423px;
+    }
+    .footer {
+        margin-top: 190px;
+    }
+    .last_block {
+        display: none;
+    }
+    .last_block_overlay {
+        top: 2359px;
+    }
+    .iphone_small {
+        display: none;
+    }
+    .navbar2 {
+        display: none;
+    }
+    .last_block_overlay {
+        display: none;
+    }
+    .bottom {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 166px;
+    }
+    .button {
+        margin-right: 0px;
+    }
+    .main {
+        width: 320px;
+    }
+    .violet_center {
+        width: 320px;
+    }
+    .violet_overlay {
+        top: 516px;
+    }
+    .coment_icons1 {
+        margin-left: -132px;
+        padding-bottom: 383px;
+    }
+    .coment_icons2 {
+        margin-left: -132px;
+        padding-bottom: 104px;
+    }
+    .coment_icons3 {
+        margin-left: -132px;
+        margin-top: 190px;
+    }
+    .article1 {
+        width: 197px;
+        margin-left: 0px;
+    }
+    .article2 {
+        width: 197px;
+        margin-left: 0px;
+    }
+    .article3 {
+        width: 197px;
+        margin-left: 0px;
+    }
+    .article_text {
+        height: 61px;
+        overflow: hidden;
+    }
+    .ping_starts {
+        width: 256px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 37px;
+    }
+    .comments {
+        width: 320px;
+    }
+    .com_block1 {
+        width: 320px;
+    }
+    .comment_left {
+        width: 320px;
+    }
+    .comment3_1 {
+        width: 256px;
+    }
+    .img_comment {
+        width: 256px;
+    }
+    .dodik {
+        margin-top: 94px;
+        margin-left: -120px;
+    }
+    .Ping_starts_text {
+        width: 173px;
+        height: 145px;
+        overflow: hidden;
+        margin-left: 37px;
+    }
+    .comment_right {
+        width: 320px;
+    }
+    .comment_bottom {
+        width: 320px;
+    }
+    .coopiright1 {
+        padding-top: 45px;
+    }
+    .footer {
+        width: 320px;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,238 @@
+@import url(style.css);
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 768px;
+
+    }
+
+    .top {
+        width: 768px;
+        display: block;
+    }
+
+    .Link {
+        margin-right: 43px;
+        margin-left: 0px;
+    }
+
+    .Link:hover {
+        text-decoration: underline;
+        text-decoration-color: #edbfff;
+        margin-left: 0px;
+        margin-right: 43px;
+        transition-duration: 0.2s;
+    }
+
+    /* //////////////////////////////////////////////////////////////////////////////////////// */
+
+    .midle {
+        width: 768px;
+    }
+
+    .lorem_box {
+        width: 270px;
+        height: 169px;
+        overflow: hidden;
+    }
+
+    h1 {
+        font-size: 40px;
+        padding-top: 8px;
+    }
+
+    h3 {
+        font-size: 24px;
+        height: 21px;
+        overflow: hidden;
+        padding-top: 3px;
+    }
+
+    p {
+        font-size: 14px;
+
+        text-align: justify;
+    }
+
+    .play_icon {
+        padding-left: 560px;
+    }
+
+    .iphone_box2 {
+        padding-left: 425px;
+    }
+
+    /* ///////////////////////////////////////////////////////////////////////////////////////////// */
+    .bottom {
+        width: 768px;
+    }
+
+    h2 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    .article1 {
+        width: 160px;
+        margin-left: 60px;
+    }
+
+    .article2 {
+        width: 160px;
+        margin-left: 60px;
+    }
+
+    .article3 {
+        width: 160px;
+        margin-left: 60px;
+    }
+
+    .coment_icons1 {
+        background-position: 548px -10px;
+    }
+
+    .coment_icons2 {
+        margin-left: 298px;
+        background-position: 590px -10px;
+    }
+
+    .coment_icons3 {
+        margin-left: 563px;
+        background-position: 633px -11px;
+    }
+
+    .violet_center {
+        width: 768px;
+
+    }
+
+    .comments {
+        width: 768px;
+
+    }
+
+    .com_block1 {
+        width: 768px;
+
+    }
+
+    .comment_left {
+        width: 384px;
+    }
+
+    .comment_right {
+        width: 384px;
+    }
+
+    .img_comment {
+        width: 313px;
+        height: 272px;
+        overflow: hidden;
+    }
+
+    .Ping {
+        color: black;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .ping_starts {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .Res_upd {
+        padding-bottom: 36px;
+    }
+
+
+    .Res_P {
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(69, 69, 69);
+        line-height: 1.5;
+        text-align: left;
+        text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+        padding-bottom: 0px;
+        height: 20px;
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+
+    .Res_upd_block {
+        height: 173px;
+        width: 260px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .strite1 {
+        margin-top: -48px;
+        margin-left: -114px;
+    }
+
+    .strite2 {
+        margin-left: -114px;
+        margin-top: 18px;
+    }
+
+    .strite3 {
+        margin-top: 84px;
+        margin-left: -114px;
+    }
+
+    .article2_1 {
+        width: 204px;
+        height: 194px;
+        overflow: hidden;
+    }
+
+    .article2_2 {
+        width: 204px;
+        height: 194px;
+        overflow: hidden;
+    }
+
+    .article2_3 {
+        width: 204px;
+        height: 194px;
+        overflow: hidden;
+    }
+    .Copyright{
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+    .ping22{
+        font-size: 24px;
+    }
+
+
+    /* ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+    .comment_bottom {
+        width: 768px;
+    }
+    .Link2{
+        font-size: 20px;
+    }
+
+    .last_block {
+        width: 768px;
+
+    }
+    .coopiright1{
+        padding-top: 44px;
+    }
+    
+    .footer{
+        height: 201px;
+    }
+    .foot_back{
+        height: 201px;
+        background-size: 100% 201px;
+    }
+    
+}
