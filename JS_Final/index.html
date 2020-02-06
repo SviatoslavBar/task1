@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav">
+            <div class="edit"></div>
+            <div class="editBlock"></div>
+            <div class="textDecoration">
+                <div class="bold"></div>
+                <div class="italic"></div>
+                <div class="underline"></div>
+                <div class="lineThrough"></div>
+            </div>
+            <div class="textAlign">
+                <div class="textLeft"></div>
+                <div class="textCenter"></div>
+                <div class="textRight"></div>
+            </div>
+            <div class="textBackground">
+
+                <select class="textFont">
+                    <option value=""></option>
+                    <option style="font-family: Arial">Arial</option>
+                    <option style="font-family: Georgia">Georgia</option>
+                    <option style="font-family: Impact">Impact</option>
+                    <option style="font-family: Tahoma">Tahoma</option>
+                    <option style="font-family: 'Times New Roman'">Times New Roman</option>
+                    <option style="font-family: Verdana">Verdana</option>
+                </select>
+
+                <select class="textSize" id="sel">
+
+                    <option value=""></option>
+                    <option id="opTextsize" style="font-size: 12px;">12px</option>
+                    <option id="opTextsize" style="font-size: 14px;">14px</option>
+                    <option id="opTextsize" style="font-size: 16px;">16px</option>
+                    <option id="opTextsize" style="font-size: 20px;">20px</option>
+                    <option id="opTextsize" style="font-size: 22px;">22px</option>
+                    <option id="opTextsize" style="font-size: 25px;">25px</option>
+                    <option id="opTextsize" style="font-size: 30px;">30px</option>
+                </select>
+                <div class="textColor"></div>
+                <div class="textBackgroundColor"></div>
+            </div>
+            <div class="signIn"></div>
+            <div class="cont1">
+                <h2 style="margin: 18px">Choose text color</h2>
+                <div class="colorWrap">
+                    <div class="colorT" id="t0"></div>
+                    <div class="colorT" id="t1"></div>
+                    <div class="colorT" id="t2"></div>
+                    <div class="colorT" id="t3"></div>
+                    <div class="colorT" id="t4"></div>
+                    <div class="colorT" id="t5"></div>
+                    <div class="colorT" id="t6"></div>
+                    <div class="colorT" id="t7"></div>
+                    <div class="colorT" id="t8"></div>
+                    <div class="colorT" id="t9"></div>
+                    <div class="colorT" id="t10"></div>
+                    <div class="colorT" id="t11"></div>
+                    <div class="colorT" id="t12"></div>
+                    <div class="colorT" id="t13"></div>
+                    <div class="colorT" id="t14"></div>
+                    <div class="colorT" id="t15"></div>
+                    <div class="colorT" id="t16"></div>
+                    <div class="colorT" id="t17"></div>
+                    <div class="colorT" id="t18"></div>
+                    <div class="colorT" id="t19"></div>
+                    <div class="colorT" id="t20"></div>
+                </div>
+                <div class="Xbutton" id="x1"></div>
+            </div>
+            <div class="cont2">
+                <h2 style="margin: 18px">Choose text color</h2>
+                <div class="Xbutton" id="x2"></div>
+                <div class="styleBlocksHolder">
+                    <div class="colorBlockBackground">Color</div>
+                    <div class="imagesBlockBackground">Images</div>
+                    <div class="filesBlockBackground">Files</div>
+                </div>
+                <div class="colorWrap2">
+                    <div class="colorT1" id="tt0"></div>
+                    <div class="colorT1" id="tt1"></div>
+                    <div class="colorT1" id="tt2"></div>
+                    <div class="colorT1" id="tt3"></div>
+                    <div class="colorT1" id="tt4"></div>
+                    <div class="colorT1" id="tt5"></div>
+                    <div class="colorT1" id="tt6"></div>
+                    <div class="colorT1" id="tt7"></div>
+                    <div class="colorT1" id="tt8"></div>
+                    <div class="colorT1" id="tt9"></div>
+                    <div class="colorT1" id="tt10"></div>
+                    <div class="colorT1" id="tt11"></div>
+                    <div class="colorT1" id="tt12"></div>
+                    <div class="colorT1" id="tt13"></div>
+                    <div class="colorT1" id="tt14"></div>
+                    <div class="colorT1" id="tt15"></div>
+                    <div class="colorT1" id="tt16"></div>
+                    <div class="colorT1" id="tt17"></div>
+                    <div class="colorT1" id="tt18"></div>
+                    <div class="colorT1" id="tt19"></div>
+                    <div class="colorT1" id="tt20"></div>
+                </div>
+                <div class="imagesBlockBackgroundBox">
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                    <div class="imgBackground"></div>
+                </div>
+                <div class="inputFile">
+                    <input type="file" name="" id="file-input">
+                    <label id="labelInput1" for="file-input">Browse</label>
+                    <label id="labelInput" for="file-input">Input file...</label>
+                </div>
+
+            </div>
+            <div class="signInUnclock">
+                <div class="Xbutton" id="x6"></div>
+                <h2 style="text-align: center; margin-top: 20px; margin-bottom: 15px;">Sign in</h2>
+                <input type="text" id="signInInput1">
+                <input type="text" id="signInInput2">
+                <button id="signInButton">Sign in</button>
+                <p id="valEmpty">Value is empty</p>
+                <p id="valueCheck">Please check your email or password</p>
+            </div>
+
+        </div>
+        <div class="secondMenu">
+            <div class="saveEdit"></div>
+            <div class="createTable"></div>
+            <div class="createOL"></div>
+            <div class="createUL"></div>
+        </div>
+    </div>
+    <div class="textBox" id="textBox">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="boxEdit">
+        <textarea name="textA" id="textA" class="textA"></textarea>
+    </div>
+    <div class="createTableBox" id="createTableBox">
+        <p id="valTable">Value is empty</p>
+        <div class="Xbutton" id="x3"></div>
+        <div class="CTBtop">
+            <h2 style="margin: 26px;">Create table</h2>
+        </div>
+        <div class="CTBleft">
+            <p class="boxTablePstyle">Count TR:</p>
+            <input class="in" type="text" id="tr">
+            <p class="boxTablePstyle">Width of TD:</p>
+            <input class="in" type="text" id="widthTD">
+            <p class="boxTablePstyle">Width of border:</p>
+            <input class="in" type="text" id="widthBorder">
+            <button class="button" id="resetTable">Reset</button>
+        </div>
+        <div class="CTBright">
+            <p class="boxTablePstyle">Count TD:</p>
+            <input class="in" type="text" id="td">
+            <p class="boxTablePstyle">Height of TD:</p>
+            <input class="in" type="text" id="heightTD">
+            <div class="selOptBox">
+                <div class="selOptBoxLine">
+                    <p class="boxTablePstyle" style="margin-right: 30px;">Style of border:</p>
+                    <p class="boxTablePstyle">Color of border:</p>
+                </div>
+
+                <select class="selOpt" name="" id="typeOfBorder">
+                    <option value="solid">solid</option>
+                    <option value="dotted">dotted</option>
+                    <option value="dashed">dashed</option>
+                    <option value="double">double</option>
+                </select>
+
+                <select class="selOpt" name="" id="colorOfBorder">
+                    <option value="black">black</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                </select>
+            </div>
+            <button class="button" id="butCreateTable">Create table</button>
+        </div>
+    </div>
+    <div class="OlContainer">
+        <div class="Xbutton" id="x4"></div>
+        <h2 style="margin: 20px;"> Create Ol</h2>
+        <p style="margin-left: 20px;">Count li item:</p>
+        <input type="text" class="OlContainerInput">
+        <p style="margin-left: 20px;">Type mark of list:</p>
+        <select class="OlContainerInput" id="olSelect">
+            <option value="upper-roman">(I, II, III, IV, V,...)</option>
+            <option value="upper-alpha">(A, B, C, D,...)</option>
+            <option value="lower-greek">(α, β, γ, δ,...)</option>
+            <option value="decimal">(1, 2, 3, 4,...)</option>
+        </select>
+        <div class="OlContainerButtons">
+            <button class="buttonOl" id="resetOl">Reset</button>
+            <button class="buttonOl" id="createOl">Create list</button>
+        </div>
+        <p id="valOl">Value is empty</p>
+    </div>
+    <div class="UlContainer">
+        <div class="Xbutton" id="x5"></div>
+        <h2 style="margin: 20px;"> Create Ul</h2>
+        <p style="margin-left: 20px;">Count li item:</p>
+        <input type="text" class="UlContainerInput">
+        <p style="margin-left: 20px;">Type mark of list:</p>
+        <select class="UlContainerInput" id="ulSelect">
+            <option value="circle">circle</option>
+            <option value="disc">disc</option>
+            <option value="square">square</option>
+        </select>
+        <div class="UlContainerButtons">
+            <button class="buttonUl" id="resetUl">Reset</button>
+            <button class="buttonUl" id="createUl">Create list</button>
+        </div>
+        <p id="valUl">Value is empty</p>
+    </div>
+
+    <div class="blur" id="blur"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="code.js"></script>
+</body>
+
+</html>

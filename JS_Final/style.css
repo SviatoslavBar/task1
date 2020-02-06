@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100px;
+    background: gray;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    margin: 0 auto;
+    width: 710px;
+}
+
+.edit {
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-right: 15px;
+    background: white;
+    background-image: url(icons/icons.png);
+    background-position: 504px 325px;
+    cursor: pointer;
+}
+.editBlock{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+    background: red;
+    opacity: 20%;
+}
+
+.textDecoration {
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-right: 15px;
+    background: white;
+}
+
+.textAlign {
+    display: flex;
+    width: 150px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-right: 15px;
+    background: white;
+}
+
+.textBackground {
+    display: flex;
+    width: 200px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    margin-right: 15px;
+    background: white;
+}
+.textBox{
+    height: 89.7vh;
+    padding: 35px;
+}
+
+.signIn {
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    background-position: 504px 245px;
+}
+
+.bold {
+    background-position: 666px 485px;
+}
+
+.italic {
+    background-position: 585px 485px;
+}
+
+.underline {
+    background-position: 505px 485px;
+}
+
+.lineThrough {
+    background-position: 344px 165px;
+}
+
+.textLeft {
+    background-position: 505px 405px;
+}
+
+.textCenter {
+    background-position: 425px 405px;
+}
+
+.textRight {
+    background-position: 344px 405px;
+}
+
+.textFont {
+    background-position: 425px 485px;
+    border: none;
+    font-size: 22px;
+}
+
+.textSize {
+    background-position: 585px 405px;
+    border: none;
+}
+
+.textColor {
+    background-position: 585px 325px;
+}
+
+.textBackgroundColor {
+    background-position: 585px 245px;
+}
+
+.signIn,
+.bold,
+.italic,
+.underline,
+.lineThrough,
+.textLeft,
+.textCenter,
+.textRight,
+.textFont,
+.textSize,
+.textColor,
+.textBackgroundColor {
+    width: 50px;
+    height: 50px;
+    background-image: url(icons/icons.png);
+    cursor: pointer;
+}
+.signIn{
+    height: 55px;
+}
+option {
+    min-height: 40px;
+}
+
+.cont1 {
+    position: absolute;
+    width: 512px;
+    border: 1px solid;
+    border-radius: 5px 5px;
+    left: 50%;
+    margin-left: -255px;
+    top: 50%;
+    margin-top: -142px;
+    display: none;
+    z-index: 1000;
+    background: white;
+}
+
+.cont2 {
+    position: absolute;
+    width: 512px;
+    border: 1px solid;
+    border-radius: 5px 5px;
+    left: 50%;
+    margin-left: -255px;
+    top: 50%;
+    margin-top: -128px;
+    display: none;
+    z-index: 1000;
+    background: white;
+}
+
+.colorT,
+.colorT1 {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px 5px;
+    cursor: pointer;
+}
+
+.colorWrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.colorWrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.styleBlocksHolder{
+    display: flex;
+}
+.colorBlockBackground {
+    width: 170px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 14px;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    cursor: pointer;
+}
+.imagesBlockBackground{
+    width: 170px;
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+
+}
+.filesBlockBackground{
+    width: 170px;
+    height: 35px;
+    font-size: 25px;
+    border-bottom: 1px solid gray;
+    text-align: left;
+    text-align: center;
+    cursor: pointer;
+
+}
+.imgBackground{
+    width: 150px;
+    height: 85px;
+    margin: 10px;
+    outline: 1px solid;
+    cursor: pointer;
+}
+.imagesBlockBackgroundBox{
+    display: none;
+    flex-wrap: wrap;
+}
+#file-input{
+    width: 0.1px;
+     height: 0.1px;
+     opacity: 0;
+     position: absolute;
+     z-index: -10;
+}
+#labelInput{
+    width: 395px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 34px;
+    border: 1px solid gray;
+    margin-left: 12px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+#labelInput1{
+    width: 90px;
+    height: 50px;
+    display: flex;
+    border: 1px solid gray;
+    background: lightblue;
+    margin-top: 15px;
+    align-items: center;
+    font-size: 24px;
+    justify-content: center;
+    cursor: pointer;
+}
+.inputFile{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    display: none;
+}
+.signInUnclock{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 512px;
+    height: 255px;
+    margin-top: -71px;
+    margin-left: -255px;
+    border: 1px solid;
+    border-radius: 5px 5px;
+    background: white;
+    z-index: 1000;
+}
+
+#signInInput1{
+    width: 480px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#signInInput2{
+    width: 480px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+.secondMenu{
+    display: none;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    
+}
+.saveEdit{
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    background: white;
+    background-image: url(icons/icons.png);
+    background-position: 424px 325px;
+}
+.createTable{
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    background: white;
+    background-image: url(icons/icons.png);
+    background-position: 584px 325px;
+}
+.createOL{
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    background: white;
+    background-image: url(icons/icons.png);
+    background-position: 584px 405px;
+}
+.createUL{
+    width: 50px;
+    height: 55px;
+    border: 1px solid black;
+    border-radius: 3px 3px;
+    background: white;
+    background-image: url(icons/icons.png);
+    background-position: 664px 405px;
+}
+.boxEdit{
+    display: none;
+}
+textarea{
+    width: 100%;
+    height: 89vh;
+    border: none;
+    margin: 0px;
+}
+.createTableBox{
+    width: 620px;
+    height: 400px;
+    background: white;
+    position: absolute;
+    border-radius: 5px 5px;
+    top: 50%;
+    left: 50%;
+    border: 1px solid;
+    margin-left: -300px;
+    margin-top: -200px;
+    display: none;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+.in{
+    width: 270px;
+    height: 35px;
+    margin: 10px;
+}
+.selOpt{
+    width: 128px;
+    height: 35px;
+    margin: 10px;
+    margin-right: 0px;
+}
+.button{
+    width: 270px;
+    height: 35px;
+    margin: 10px;
+    margin-top: 49px;
+}
+.CTBtop{
+    width: 600px;
+    height: 60px;
+}
+.CTBleft{
+    width: 300px;
+    margin-left: 15px;
+}
+.CTBright{
+    width: 300px;
+}
+.boxTablePstyle{
+    margin-left: 10px;
+}
+.selOptBoxLine{
+    display: flex;
+}
+.blur{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: black;
+    opacity: 50%;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 100;
+}
+.OlContainer{
+    width: 500px;
+    height: 310px;
+    background: white;
+    position: absolute;
+    border-radius: 5px 5px;
+    top: 50%;
+    left: 50%;
+    border: 1px solid;
+    margin-left: -250px;
+    margin-top: -150px;
+    flex-wrap: wrap;
+    z-index: 1000;
+    display: none;
+}
+.UlContainer{
+width: 500px;
+height: 310px;
+background: white;
+position: absolute;
+border-radius: 5px 5px;
+top: 50%;
+left: 50%;
+border: 1px solid;
+margin-left: -155px;
+margin-top: -250px;
+flex-wrap: wrap;
+z-index: 1000;
+display: none;
+}
+
+.OlContainerButtons,.UlContainerButtons{
+    margin: 0 auto;
+    width: 464px;
+}
+.buttonOl,.buttonUl{
+    width: 230px;
+    height: 35px;
+    margin-top: 20px;
+}
+.OlContainerInput,.UlContainerInput{
+    margin: 20px;
+    width: 457px;
+    height: 35px;
+    margin-top: 10px;
+}
+.Xbutton{
+    width: 25px;
+    height: 25px;
+    background-image: url(icons/X.png);
+    background-size: 100% auto;
+    position: absolute;
+    margin-top: -269px;
+    margin-left: 470px;
+    cursor: pointer;
+}
+#x2{
+    margin-top: -50px;
+}
+#x3{
+    margin-top: 18px;
+    margin-left: 570px;
+}
+#x4,#x5{
+    margin-top: 18px;
+    margin-left: 453px;
+}
+#x6{
+    margin-top: 10px;
+}
+
+#signInButton{
+    width: 480px;
+    height: 40px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#valEmpty, #valueCheck{
+margin-top: -70px;
+margin-left: 20px;
+color: red;
+display: none;
+}
+#valTable{
+    position: absolute;
+    margin-top: 311px;
+    margin-left: 26px;
+    color: red;
+    display: none;
+}
+#valOl{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
+    color: red;
+    display: none;
+}
+#valUl{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
+    color: red;
+    display: none;
+}
+#labelTextSize{
+    width: 50px;
+    height: 30px;
+}

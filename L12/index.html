@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="box1" id="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="btns">
+        <button class="button1">edit</button>
+        <button class="button2">style</button>
+    </div>
+
+    <div class="boxEdit">
+        <textarea name="textA" id="textA" class="textA"></textarea>
+        <div class="btns2">
+            <button class="button3">add</button>
+            <button class="button4">save</button>
+        </div>
+    </div>
+    <div class="boxStyle">
+        <p>Font Size:</p>
+        <input type="radio" id="r1" name="rb">12px
+        <input type="radio" id="r2" name="rb">14px
+        <input type="radio" id="r3" name="rb" checked>16px
+        <input type="radio" id="r4" name="rb">18px
+        <input type="radio" id="r5" name="rb">20px
+
+        <p>Font Family:</p>
+        <form name="fontF">
+
+            <select class="sel" name="sel" value=''>
+
+                <option value="serif">serif</option>
+                <option value="sans-serif">sans-serif</option>
+                <option value="monospace">monospace</option>
+                <option value="fcursive">fcursive</option>
+                <option value="fantasy">fantasy</option>
+                <option value="system-ui">system-ui</option>
+
+            </select>
+
+        </form>
+        <p>Colors:</p>
+        <button class="button5">Color of text</button>
+        <button class="button6">Background color</button>
+
+
+        <div class="colorBlock">
+            <div class="colorC" style="background:lightyellow"></div>
+            <div class="colorC" style="background: yellow "></div>
+            <div class="colorC" style="background: gold "></div>
+            <div class="colorC" style="background: goldenrod "></div>
+            <div class="colorC" style="background: orange "></div>
+            <div class="colorC" style="background: peru "></div>
+            <div class="colorC" style="background: saddlebrown "></div>
+            <div class="colorC" style="background: brown "></div>
+            <div class="colorC" style="background: darkred "></div>
+        </div>
+
+        <div class="colorText">
+            <div class="colorT " style="background: darkred "></div>
+            <div class="colorT " style="background: brown "></div>
+            <div class="colorT " style="background: saddlebrown "></div>
+            <div class="colorT " style="background: peru "></div>
+            <div class="colorT " style="background: orange "></div>
+            <div class="colorT " style="background: goldenrod "></div>
+            <div class="colorT " style="background: gold "></div>
+            <div class="colorT " style="background: yellow "></div>
+            <div class="colorT " style="background: lightyellow "></div>
+
+        </div>
+        <p>Style:</p>
+
+
+        <input type="checkbox" class="button7 " id="sBold">Bold text
+        <input type="checkbox" class="button8 " id="sCursive">Cursive text
+
+    </div>
+    <!--  -->
+    <!-- TABLE -->
+    <!--  -->
+    <div class="boxChoose">
+        <h2 class="h2BC">Choose what you want</h2>
+        <input class="chooseRad1" id="chooseRad1" type="radio" name="rb ">table
+        <input id="chooseRad2" type="radio" name="rb ">list
+
+        <div class="boxTable">
+            <div class="butTable">
+                <div class="A1 ">
+                    <p>Count TR</p>
+                    <input type="number" class="numStyle" id="tr">
+                </div>
+                <div class="A2 ">
+                    <p>Count TD</p>
+                    <input type="number" class="numStyle" id="td">
+                </div>
+            </div>
+            <h2 class="h2BC">Add style to your table: </h2>
+            <div class="A3 ">
+                <p>Width of TD</p>
+                <input type="number" class="numStyle" id="widthTD" style="margin-left: 38px;">
+            </div>
+            <div class="A4 ">
+                <p>Height of TD</p>
+                <input type="number" class="numStyle" id="heightTD" style="margin-left: 34px;">
+            </div>
+
+            <div class="A5 ">
+                <p> width of border </p>
+                <input class="widthBorder" id="widthBorder" type="number">
+                <p style="margin-right: 20px;">Type of border</p>
+                <form name="typeOfBorderF">
+                    <select class="sel2" name="typeOfBorder" id="typeOfBorder">
+                        <option value="solid">solid</option>
+                        <option value="dotted">dotted</option>
+                        <option value="dashed">dashed</option>
+                        <option value="double">double</option>
+                    </select>
+                </form>
+                <p style="margin-right: 15px;">Color of border</p>
+                <form name="colorOfBorderF">
+                    <select class="sel2" name="colorOfBorder" id="colorOfBorder">
+                        <option value="black">black</option>
+                        <option value="red">red</option>
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                    </select>
+                </form>
+
+
+            </div>
+            <button class="button9 ">Add table</button>
+
+            <div class="holder ">
+                <p class="hol"></p>
+            </div>
+        </div>
+        <div class="boxList">
+            <div class="BLLi">
+                <p>Count li: </p>
+                <input type="number" id="inputNumList" class="inputNumList">
+                <div class="numHold"></div>
+
+            </div>
+            <div class="boxMarks">
+                <p>Type of marks: </p>
+                <form name="changeMarksF">
+                    <select class="sel3" name="changeMarks" value=''>
+                        <option value="circle">circle</option>
+                        <option value="disc">disc</option>
+                        <option value="square">square</option>
+                    </select>
+                </form>
+            </div>
+
+            <button class="button10">Create list</button>
+            <div class="holder2">
+                <p class="hol2">
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="code.js "></script>
+</body>
+
+</html>

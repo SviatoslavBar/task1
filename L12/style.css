@@ -1,0 +1,263 @@
+body {
+    display: block;
+}
+
+.box1 {
+    width: 900px;
+    min-height: 270px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.boxChoose {
+    width: 900px;
+    height: 270px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    display: none;
+}
+
+.boxTable {
+    width: 900px;
+    height: 470px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    display: none;
+}
+
+.butTable {
+    margin-left: 20px;
+}
+
+.boxList {
+    width: 900px;
+    height: 203px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    display: none;
+}
+
+.btns {
+    margin: 0 auto;
+    width: 21%;
+    margin-bottom: 15px;
+}
+
+.btns2 {
+    padding-left: 37px;
+}
+
+.button1 {
+    background-color: gold;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.button2 {
+    background-color: lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.boxEdit {
+    width: 935px;
+    height: 315px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    display: none;
+}
+
+.boxStyle {
+    display: none;
+    width: 900px;
+    height: 333px;
+    border-radius: 5px;
+    background-color: rgb(216, 216, 245);
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+.sel {
+    width: 279px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.sel2 {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.textA {
+    width: 855px;
+    height: 190px;
+    padding-top: 15px;
+    margin-left: 37px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.button3 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.button4,
+.button9,
+.button10 {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.button9,
+.button10{
+    margin: 20px;
+}
+
+.button5,
+.button6 {
+    height: 38px;
+    border-style: unset;
+    background: gray;
+    color: white;
+}
+
+.colorBlock {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 59%;
+    top: 435px;
+}
+
+.colorText {
+    display: none;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 59%;
+    top: 435px;
+}
+
+.colorC {
+    width: 33.3%;
+    height: 33.3%;
+    display: flex;
+    outline: 1px solid black;
+    float: left;
+}
+
+.colorT {
+    width: 33.3%;
+    height: 33.3%;
+    display: flex;
+    outline: 1px solid black;
+    float: left;
+}
+
+.A1,
+.A2,
+.A3,
+.A4,
+.A5,
+.BLLi,
+.boxMarks {
+    display: flex;
+}
+
+.A3,
+.A4,
+.A5 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.holder2 {
+    display: none;
+}
+
+.numStyle {
+    width: 720px;
+    margin-top: 5px;
+    height: 35px;
+    margin-left: 56px;
+}
+
+.h2BC {
+    padding-left: 20px;
+    padding-top: 20px
+}
+
+.chooseRad1 {
+    margin-left: 20px;
+}
+.widthBorder{
+    width: 150px;
+    height: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.inputNumList{
+    width: 716px;
+    margin-top: 5px;
+    height: 35px;
+    margin-left: 60px;
+}
+.sel3{
+    width: 720px;
+    margin-top: 5px;
+    height: 35px;
+    margin-left: 20px;
+}
+.BLLi,
+.boxMarks{
+    padding-left: 20px;
+}
